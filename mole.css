@@ -1,0 +1,63 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Changed to a more playful and fancy font */
+    text-align: center;
+    background: url("./bgimg.png"); /* Updated background image file */
+    background-size: cover;
+}
+
+h1 {
+    color: #ff69b4; /* Fancy pink color for the title */
+    font-size: 4em; /* Increased font size for a bold look */
+    text-shadow: 3px 3px #000; /* Enhanced shadow effect for more depth */
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2#score {
+    color: #32cd32; /* Lime green for the score */
+    font-size: 2em; /* Font size for the score */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #000;
+}
+
+h2#game-over {
+    color: red; /* Red color for "Game Over" */
+    font-size: 3em; /* Font size for "Game Over" */
+    text-shadow: 2px 2px #000;
+    animation: blinkGameOver 1s infinite; /* Blinking effect for "Game Over" */
+}
+
+@keyframes blinkGameOver {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+#board {
+    width: 540px;
+    height: 540px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: url("./soil.png");
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+#board div {
+    width: 180px;
+    height: 180px;
+    background-image: url("./pipe.png");
+    background-size: cover;
+}
+
+#board div img {
+    width: 100px;
+    height: 100px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
