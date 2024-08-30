@@ -15,7 +15,6 @@ Welcome to the **Whack A Mole** game! This project is a simple, browser-based ga
 
 ![wam](https://github.com/user-attachments/assets/156fb2a3-9d5c-4487-889a-c7bbc1b0bf41)
 
-You can try out the game [here](https://your-github-username.github.io/whack-a-mole-game).
 
 ## Features
 
