@@ -63,4 +63,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ---
 
-Feel free to contribute to the project by submitting issues or pull requests. Enjoy the game!
+Reference tutorial: https://www.youtube.com/watch?v=ej8SatOj3V4
